@@ -11,18 +11,18 @@ using namespace std;
 
 template <class T>
 class StackGe {
-    T size, head;
+    int max, head;
     T stack[];
   public:
     StackGe() {
-        size = 10;
+        max = 10;
         head = 0;
     } 
-    StackGe(T size) {
-        this->size;
+    StackGe(T max) {
+        this->max;
         head = 0;
     }
-    void push(T value);
+    bool push(T value);
     bool isFull();
     T top();
 };
