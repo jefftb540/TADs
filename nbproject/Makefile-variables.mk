@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux-x86
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux-x86
-CND_ARTIFACT_NAME_Debug=teste
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/teste
+CND_ARTIFACT_NAME_Debug=tads
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/tads
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Debug=teste.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/teste.tar
+CND_PACKAGE_NAME_Debug=tads.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/tads.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux-x86
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux-x86
-CND_ARTIFACT_NAME_Release=teste
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/teste
+CND_ARTIFACT_NAME_Release=tads
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/tads
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Release=teste.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/teste.tar
+CND_PACKAGE_NAME_Release=tads.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/tads.tar
 #
 # include compiler specific variables
 #

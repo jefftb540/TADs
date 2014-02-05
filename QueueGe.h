@@ -1,32 +1,33 @@
 /* 
- * File:   StackGe.h
+ * File:   QueueGe.h
  * Author: wander
  *
- * Created on 4 de Fevereiro de 2014, 19:43
+ * Created on 4 de Fevereiro de 2014, 20:24
  */
 
-#ifndef STACKGE_H
-#define	STACKGE_H
+#ifndef QUEUEGE_H
+#define	QUEUEGE_H
 using namespace std;
 
 template <class T>
-class StackGe {
+class QueueGe {
 public:
-    StackGe();
-    StackGe(int max);
+    QueueGe();
+    QueueGe(int max);
     bool isEmpty();
     bool isFull();
     int size();
-    T top();
+    int front();
+    int back();
     void push(T value);
     T pop();
     void clear();
     T print();
-    virtual ~StackGe();
+    virtual ~QueueGe();
 private:
     int head, max;
     T *stack;
 };
 
-#endif	/* STACKGE_H */
+#endif	/* QUEUEGE_H */
 
